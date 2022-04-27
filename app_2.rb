@@ -21,7 +21,7 @@ def perform
   human_name = gets.chomp 
   human_player = HumanPlayer.new(human_name)
 
-  ### INITIALISATION DES POKEMONS ###
+  ### INITIALISATION DES MANGEMORTS ###
   wizard1 = Player.new("Mangemort")
   wizard2 = Player.new("Voldemort")
   wizards = [wizard1, wizard2]
